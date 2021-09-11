@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+#menu{
+    width: 100vw;
+    background-image: linear-gradient(#FFFFFF, #F2F2F2, #E5E5E5, #D9D9D9, #CCCCCC);
+}
