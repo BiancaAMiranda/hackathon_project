@@ -19,6 +19,7 @@
     align-items: center;
     justify-content: center;
     background-color: black;
+    padding: 5px;
 }
 #first h1{
     text-align: center;
@@ -43,6 +44,7 @@
     height: 50vh;
     display: flex;
     justify-content: space-evenly;
+    padding: 5px;
 }
 #second-one{
     text-align: center;
@@ -92,6 +94,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 5px;
 }
 #fourth-imgs{
     width: 100%;
@@ -106,4 +109,94 @@
 .reciclavel{
     width: 33%;
     text-align: center;
+}
+#passagem5{
+    height: 2vh;
+    background-image: linear-gradient(#cccccc, black);
+}
+#fifth{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+#fifth-imgs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#fifth-imgs img{
+    width: 200px;
+    border-radius: 50%;
+}
+.imagem{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bloco{
+    width: 33%;
+}
+#passagem6{
+    height: 2vh;
+    background-image: linear-gradient(black, white);
+}
+#sexth{
+    text-align: center;
+    padding: 5px;
+}
+#sexth a{
+    color: #BB3219;
+}
+#passagem7{
+    height: 2vh;
+    background-image: linear-gradient(white, #bb3219);
+}
+#seventh{
+    width: 100%;
+    background-color: #BB3219;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+.campos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+input{
+    width: 30vw;
+    padding: 5px;
+}
+.group{
+    display: flex;
+    justify-content: space-evenly;
+}
+#seventh button{
+    background-color: white;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 4px;
+}
+#seventh button:hover{
+    color: #BB3219;
+    text-shadow: 2px 2px 5px #CCCCCC;
+    padding: 2px;
+}
+#passagem8{
+    height: 2vh;
+    background-image: linear-gradient(#bb3219, #CCCCCC);
+}
+footer{
+    background-image: linear-gradient(to top, #FFFFFF, #F2F2F2, #E5E5E5, #D9D9D9, #CCCCCC);
+    text-align: center;
+}
+footer a{
+    color: #BB3219;
+}
+footer a:hover{
+    color: #BB3219;
 }
