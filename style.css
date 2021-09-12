@@ -1,11 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
-body{
-    width: 100%;
-}
 #menu{
-    width: 100vw;
+    height: 20vh;
+    width: 100%;
     background-image: linear-gradient(#FFFFFF, #F2F2F2, #E5E5E5, #D9D9D9, #CCCCCC);
+}
+#menu img{
+    height: 20vh;
+}
+#first{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+#first h1{
+    text-align: center;
+    font-size: 8vw;
+    font-family: 'Rock Salt', cursive;
+    color: #BB3219;
+}
+#first h3{
+    font-size: 1.8vw;
+    color: white;
+}
+#passagem1{
+    height: 2vh;
+    background-image: linear-gradient(#CCCCCC, black);
+}
+#passagem2{
+    height: 2vh;
+    background-image: linear-gradient(black, white);
+}
+#second{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+#second-one{
+    text-align: center;
+}
+#second-two{
+    text-align: center;
+}
+#second img{
+    width: 40vw;
+    box-shadow: 3px 3px 15px black;
+}
+#second iframe{
+    width: 40vw;
+}
+#passagem3{
+    height: 2vh;
+    background-image: linear-gradient(white, #bb3219);
+}
+#third{
+    width: 100%;
+    background-color: #bb3219;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+#third-one{
+    display: flex;
+    justify-content: space-evenly;
+}
+.carrd{
+    width: 20vw;
+}
+.carrd img{
+    width: 5vw;
+    border-radius: 50%;
+}
+#passagem4{
+    height: 2vh;
+    background-image: linear-gradient(#bb3219, #cccccc);
+}
+#fourth{
+    background-color: #CCCCCC;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#fourth-imgs{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#fourth-imgs img{
+    height: 200px;
+}
+.reciclavel{
+    width: 33%;
+    text-align: center;
 }
